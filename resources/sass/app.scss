@@ -1,0 +1,378 @@
+// Tailwind
+/* purgecss start ignore */
+@tailwind  base;
+@tailwind  components;
+/* purgecss end ignore */
+@tailwind  utilities;
+
+// Custom Styles
+
+/* purgecss start ignore */
+body > div.w-full.mt-4.bg-white > main > div.text-post-content-gray.font-rubik.text-base.leading-loose.pt-6 {
+    @apply pt-0;
+}
+
+body > div > main > div > p {
+    @apply py-4;
+}
+
+body > div > main > div > h2 {
+    @apply text-3xl;
+    @apply py-3;
+    font-family: inherit;
+    color: #4c566a;
+}
+
+body > div > main > div > h3 {
+    @apply text-2xl;
+    @apply py-3;
+    font-family: inherit;
+    color: #4c566a;
+}
+
+body > div.w-full.mt-4.bg-white > main > img {
+    @apply py-2;
+}
+
+body > div > main > div > div.ql-embed-content {
+    @apply my-6;
+}
+
+body > div > main > div > pre {
+    @apply my-3;
+    @apply overflow-x-auto;
+    @apply p-2;
+    @apply bg-gray-100;
+    @apply rounded-lg;
+    @apply shadow;
+}
+
+body > div > main > div > p > a {
+    @apply underline;
+    color: rgb(3, 102, 214);
+}
+
+body > div > main > div > p > strong {
+    @apply font-medium;
+}
+
+body > div > main > div > blockquote {
+    @apply border-l-4;
+    @apply pl-4;;
+    @apply my-6;
+}
+
+body > div > main > div > div.embedded_image > img {
+    @apply py-6;
+}
+
+body > div > main > div > ul {
+    @apply py-4;
+    @apply pl-5;
+    @apply list-disc;
+}
+
+body > div > main > div > blockquote > a {
+    @apply underline;
+}
+
+// Custom buttons
+
+.black-btn {
+    @apply px-4;
+    @apply py-1;
+    @apply bg-gray-900;
+    @apply rounded;
+    @apply mr-0;
+    @apply shadow;
+
+    @screen md {
+        @apply mr-2;
+    }
+}
+
+.blue-btn {
+    @apply px-4;
+    @apply py-1;
+    @apply bg-blue-600;
+    @apply rounded;
+    @apply mt-2;
+    @apply shadow;
+
+    @screen md {
+        @apply mt-0;
+    }
+}
+
+.black-btn:hover {
+    @apply bg-gray-700;
+}
+
+.blue-btn:hover {
+    @apply bg-blue-500;
+}
+
+.calendar {
+    font-family: Helvetica, arial;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    min-height: 243px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.calendar-graph text.wday,
+.calendar-graph text.month {
+    font-size: 10px;
+    fill: #aaa;
+}
+
+.contrib-legend {
+    text-align: right;
+    padding: 0 14px 10px 0;
+    display: inline-block;
+    float: right;
+}
+
+.contrib-legend .legend {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px;
+    position: relative;
+    bottom: -1px;
+    padding: 0;
+}
+
+.contrib-legend .legend li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+}
+
+.text-small {
+    font-size: 12px;
+    color: #767676;
+}
+
+.calendar-graph {
+    padding: 5px 0 0;
+    height: 126px;
+    text-align: center;
+}
+
+.contrib-column {
+    padding: 15px 0;
+    text-align: center;
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    font-size: 11px;
+}
+
+.contrib-column-first {
+    border-left: 0;
+}
+
+.table-column {
+    display: table-cell;
+    width: 1%;
+    padding-right: 10px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.contrib-number {
+    font-weight: 300;
+    line-height: 1.3em;
+    font-size: 24px;
+    display: block;
+    color: #333;
+}
+
+.calendar img.spinner {
+    width: 70px;
+    margin-top: 50px;
+    min-height: 70px;
+}
+
+.monospace {
+    text-align: center;
+    color: #000;
+    font-family: monospace;
+}
+
+.monospace a {
+    color: #1D75AB;
+    text-decoration: none;
+}
+
+.contrib-footer {
+    font-size: 11px;
+    padding: 0 10px 12px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    height: 26px;
+}
+
+.left.text-muted {
+    float: left;
+    margin-left: 9px;
+    color: #767676;
+}
+.left.text-muted a {
+    color: #4078c0;
+    text-decoration: none;
+}
+.left.text-muted a:hover,
+.monospace a:hover {
+    text-decoration: underline;
+}
+
+h2.f4.text-normal.mb-3 {
+    display: none;
+}
+
+.float-left.text-gray {
+    float: left;
+}
+
+// Fonts
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?hgqzjq');
+    src:  url('../fonts/icomoon.eot?hgqzjq#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?hgqzjq') format('truetype'),
+        url('../fonts/icomoon.woff?hgqzjq') format('woff'),
+        url('../fonts/icomoon.svg?hgqzjq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-angellist:before {
+    content: "\e902";
+}
+.icon-chevron-down1:before {
+    content: "\e903";
+}
+.icon-chevron-down:before {
+    content: "\e900";
+}
+.icon-chevron-up:before {
+    content: "\e901";
+}
+.icon-menu:before {
+    content: "\e9bd";
+}
+.icon-github:before {
+    content: "\eab0";
+}
+.icon-linkedin:before {
+    content: "\eac9";
+}
+
+// @font-face {
+//     font-family: 'Lato';
+//     src: url('lato-black-webfont.woff2') format('woff2'),
+//          url('lato-black-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Lato';
+//     src: url('lato-blackitalic-webfont.woff2') format('woff2'),
+//          url('lato-blackitalic-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'Lato';
+//     src: url('lato-bolditalic-webfont.woff2') format('woff2'),
+//          url('lato-bolditalic-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato-italic-webfont.woff2') format('woff2'),
+         url('../fonts/lato-italic-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+
+// @font-face {
+//     font-family: 'Lato';
+//     src: url('lato-light-webfont.woff2') format('woff2'),
+//          url('lato-light-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Lato';
+//     src: url('lato-lightitalic-webfont.woff2') format('woff2'),
+//          url('lato-lightitalic-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'Lato';
+//     src: url('lato-thin-webfont.woff2') format('woff2'),
+//          url('lato-thin-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Lato';
+//     src: url('lato-thinitalic-webfont.woff2') format('woff2'),
+//          url('lato-thinitalic-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+.lato { font-family: 'Lato', sans-serif; }
+.container { max-width: 900px; }
+
+/* Hover Menu Button */
+.blog-menu:hover .blog-menu-dropdown {
+    display: flex !important;
+}
+
+/* purgecss end ignore */
