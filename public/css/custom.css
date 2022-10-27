@@ -1,5 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
 html, body {
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 1.6;
 }
 
@@ -28,12 +29,12 @@ a:hover {
 .blog-tagline {
     font-size: 20px;
     color: #6c757d;
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .nav-item {
     color: #6c757d;
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 footer p {
@@ -74,7 +75,7 @@ ul {
 
 #brand {
     color: #4C566A !important;
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500 !important;
     font-size: 2.75rem;
 }
@@ -92,7 +93,7 @@ ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 500 !important;
 }
 
@@ -181,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 .blog-post-title {
     margin-bottom: .35rem;
     font-size: 2rem;
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400 !important;
 }
 
@@ -195,11 +196,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .serif {
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .sans-serif {
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 .content-title {
@@ -212,7 +213,7 @@ color: #444;
 }
 
 .content-body {
-    font-family: "Rubik", serif;
+    font-family: "Poppins", serif;
     font-weight: 300;
     color: #2E3440;
     font-size: 1.0rem;
@@ -308,7 +309,7 @@ div.embedded_image p {
     font-size: 0.9rem !important;
     line-height: 1.6 !important;
     font-weight: 400 !important;
-    font-family: "Rubik", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 div.embedded_image a {

@@ -9,9 +9,6 @@
     <main class="container mx-auto flex-grow my-6 md:my-10 px-4">
         <div class="flex flex-col md:flex-row text-center md:justify-between align-center py-4">
             <h1 class="font-bold text-3xl text-gray-600">Free Templates</h1>
-            <span class="pt-4 md:pt-2">
-                <a class="github-button" href="https://github.com/davidgrzyb" data-size="large" aria-label="Follow @davidgrzyb on GitHub">Follow @davidgrzyb</a>
-            </span>
         </div>
 
         <div class="flex flex-col md:flex-row bg-white rounded shadow mt-8">

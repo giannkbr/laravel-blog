@@ -38,7 +38,7 @@
 
     <div class="text-post-content-gray font-rubik text-base leading-loose pt-6">{!! $data['post']->body !!}</div>
 
-    <!-- <div class="flex justify-between pt-6">
+    <div class="flex justify-between pt-6">
                 <a href="#" class="w-1/2 md:w-1/3">
                     <div class="flex flex-col py-4 px-3 md:px-10">
                         <div class="flex items-center justify-between text-gray-600">
@@ -57,7 +57,7 @@
                         <h5 class="text-lg mt-2 overflow-x-hidden">Laravel 7: What's New</h5>
                     </div>
                 </a>
-            </div> -->
+            </div>
   </main>
 </div>
 
